@@ -1,0 +1,26 @@
+======================================================================
+REPORTE DE DIAGNÓSTICO DE RED
+======================================================================
+Fecha de procesamiento: 2026-10-13 21:49:14
+Total de registros procesados correctamente: 50,000
+Líneas omitidas por errores: 0
+
+TOP 5 IP ORIGEN POR VOLUMEN DE TRÁFICO PERMITIDO (ALLOW)
+----------------------------------------------------------------------
+1. IP: 10.0.1.20 | Tráfico: 2.21 GB (2,372,130,730 bytes)
+2. IP: 192.168.1.105 | Tráfico: 2.17 GB (2,333,826,694 bytes)
+3. IP: 192.168.1.131 | Tráfico: 191.05 KB (195,639 bytes)
+4. IP: 192.168.1.106 | Tráfico: 188.81 KB (193,341 bytes)
+5. IP: 192.168.1.138 | Tráfico: 188.72 KB (193,247 bytes)
+
+--- ALERTAS DE SEGURIDAD DETECTADAS ---
+(Criterio: 5 o más intentos DENY en 60 segundos)
+[ALERTA] Posible ataque SSH por fuerza bruta/escaneo desde la IP: 185.220.101.5 | Puerto: 22 | Intentos en ventana: 47
+
+--- RESUMEN POR PROTOCOLO ---
+(Porcentaje sobre 50,000 registros válidos)
+- TCP: 73.52% (36,758 registros)
+- UDP: 22.05% (11,025 registros)
+- ICMP: 4.43% (2,217 registros)
+- OTROS: 0.00% (0 registros)
+======================================================================
